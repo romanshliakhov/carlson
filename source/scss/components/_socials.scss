@@ -1,0 +1,14 @@
+.socials {
+  display: flex;
+  align-items: center;
+  grid-gap: 8px;
+
+  &__link {
+    display: flex;
+
+    svg {
+      fill: var(--color-white);
+    }
+  }
+
+}

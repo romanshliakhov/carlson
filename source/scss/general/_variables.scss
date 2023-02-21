@@ -1,8 +1,11 @@
 :root {
-    /* -- Fonts --*/
-  --font-family: "Mulish", sans-serif; // var(--font-family);
+  /* -- Fonts --*/
+  --font-family-oswald: "Oswald", sans-serif; // var(--font-family-oswald);
+  --font-family-opensans: "OpenSans", sans-serif; // var(--font-family-opensans);
 
-
+  /* -- Colors --*/
+  --color-white: #ffffff; // var(--color-white);
+  --color-dark-green: #486735; // var(--color-dark-green);
 }
 
 

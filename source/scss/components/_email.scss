@@ -1,0 +1,28 @@
+.email {
+  display: flex;
+  // align-items: center;
+  grid-gap: 10px;
+
+  &__text {
+    font-family: var(--font-family-opensans);
+    font-size: 16px;
+    line-height: 120%;
+    font-weight: 300;
+  }
+
+  &__link {
+    display: flex;
+    grid-gap: 6px;
+
+    font-size: 16px;
+    line-height: 120%;
+    font-weight: 400;
+    text-decoration: underline;
+
+    color: var(--color-dark-green);
+
+    svg {
+      fill: currentColor;
+    }
+  }
+}

@@ -1,3 +1,12 @@
 header {
+  padding: 20px 0;
+  background: rgb(72,103,53);
+  background: linear-gradient(110deg, rgba(72,103,53,1) 65%, rgba(255,255,255,1) 65%);
+  border-bottom: 2px solid #e9c972;
+}
 
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }

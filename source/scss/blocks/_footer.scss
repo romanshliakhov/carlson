@@ -1,5 +1,14 @@
 footer {
+  padding: 20px 0;
+  background-color: var(--color-dark-green);
+  border-top: 2px dashed #e9c972;
+}
 
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 
