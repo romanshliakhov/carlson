@@ -1,0 +1,57 @@
+.payments {
+  padding: 60px 0 40px;
+  display: flex;
+  flex-direction: column;
+  grid-gap: 50px;
+
+  &__methods {
+    max-width: 600px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px;
+  }
+
+  &__method-link {
+    width: 100%;
+    position: relative;
+    padding: 20px 40px;
+    border-radius: 4px;
+    background-color: var(--color-dark-green-opacity-80);
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--color-white);
+  }
+
+  &__triggers {
+    max-width: 907px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+  }
+
+  &__trigger-link {
+    width: 100%;
+    position: relative;
+    padding: 20px 45px;
+    border-radius: 4px;
+    border: 1px solid var(--color-dark-green-opacity-20);
+    font-family: var(--font-family-opensans);
+    font-size: 22px;
+    font-weight: 400;
+    color: var(--color-dark-green-opacity-80);
+    cursor: pointer;
+  }
+
+  &__title {
+    font-size: 40px;
+    line-height: 49px;
+    font-weight: 700;
+    color: var(--color-dark-green-opacity-80);
+  }
+
+  &__cards {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 25px;
+  }
+}

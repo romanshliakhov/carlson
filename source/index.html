@@ -9,7 +9,90 @@
     <main class="main">
       <div class="container">
         <section class="payments">
+          <ul class="payments__methods">
+            <li class="payments__method">
+              <a class="payments__method-link" href="#">платіж карткою</a>
+            </li>
+            <li class="payments__method">
+              <a class="payments__method-link" href="#">monobank</a>
+            </li>
+          </ul>
 
+          <ul class="payments__triggers">
+            <li class="payments__trigger">
+              <a class="payments__trigger-link" href="#ukraine">По Україні</a>
+            </li>
+            <li class="payments__trigger">
+              <a class="payments__trigger-link" href="#swift">SWIFT</a>
+            </li>
+            <li class="payments__trigger">
+              <a class="payments__trigger-link" href="#paypal">PayPal</a>
+            </li>
+          </ul>
+
+          <h1 class="payments__title">Платежі з-за кордону та по Україні</h1>
+
+          <ul class="payments__cards">
+            <li class="payments__cards-item">
+              <div class="payment__card" id="ukraine">
+                <div class="payment__card-title">UA Перекази по Україні</div>
+
+                <ul class="payment__card-info">
+                  <li>Благодійна Організація “Благодійний фонд “Спецпідрозділ Карлсон”</li>
+                  <li>ЄДРПОУ 45113949</li>
+                  <li>Призначення платежу «Благодійна допомога»</li>
+                </ul>
+
+                <div class="payment__details">
+                  <div class="payment__card-currency">Гривна</div>
+
+                  <div class="payment__card-account">UA983052990000026003050563371</div>
+                </div>
+              </div>
+            </li>
+
+            <li class="payments__cards-item">
+              <div class="payment__card" id="swift">
+                <div class="payment__card-title">SWIFT перекази з-за кордону</div>
+
+                <ul class="payment__card-variants">
+                  <li class="payment__card-variant">
+                    <div class="payment__variant">
+                      <div class="payment__variant-title">SWIFT in US dollars (USD)</div>
+
+                      <div class="payment__variant-benecifary">BENEFICIARY CO CF “Carlson Special Squad”</div>
+
+                      <div class="payment__variant-iban">IBAN <span>UA653052990000026006050566773</span></div>
+
+                      <div class="payment__variant-info">Інформація про банк</div>
+                    </div>
+                  </li>
+
+                  <li class="payment__card-variant">
+                    <div class="payment__variant">
+                      <div class="payment__variant-title">SWIFT in euros (EUR)</div>
+
+                      <div class="payment__variant-benecifary">BENEFICIARY CO CF “Carlson Special Squad”</div>
+
+                      <div class="payment__variant-iban">IBAN <span>UA143052990000026005050575970</span></div>
+
+                      <div class="payment__variant-info">Інформація про банк</div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="payments__cards-item">
+              <div class="payment__card" id="paypal">
+                <div class="payment__card-title">Paypal</div>
+
+                <div class="payment__details">
+                  <div class="payment__card-account">carlson.donation@gmail.com</div>
+                </div>
+              </div>
+            </li>
+          </ul>
         </section>
       </div>
     </main>
