@@ -97,22 +97,6 @@
 
   &__variant-about {
     position: relative;
-    // padding-left: 20px;
-
-
-    // &::before {
-    //   content: '';
-    //   position: absolute;
-    //   left: 0;
-    //   top: 50%;
-    //   transform: translateY(-50%);
-    //   width: 14px;
-    //   height: 14px;
-    //   background-image: var(--star-icon);
-    //   background-position: center;
-    //   background-size: cover;
-    //   background-repeat: no-repeat;
-    // }
   }
 
   &__about-title {
@@ -139,5 +123,9 @@
       font-size: 18px;
       font-weight: 300;
     }
+  }
+
+  &__account-copy {
+    cursor: pointer;
   }
 }
