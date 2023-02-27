@@ -6,9 +6,8 @@ function copyContent (parent) {
     const copyBtn = item.querySelector('[data-copy-btn]');
 
     copyBtn.addEventListener('click', function(){
+      copyBtn.classList.toggle('copy');
       navigator.clipboard.writeText(copyText.innerHTML)
-
-      console.log(copyText.innerHTML)
     })
   })
 }
