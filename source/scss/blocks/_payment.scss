@@ -131,6 +131,7 @@
   }
 
   &__account-copy {
+    position: relative;
     width: 36px;
     height: 36px;
     border-radius: 50%;
@@ -141,13 +142,36 @@
     cursor: pointer;
     transition: all 0.4s ease;
 
+    &::before {
+      content: "Cкопійовано";
+      position: absolute;
+      padding: 10px;
+      border-radius: 4px;
+      font-size: 14px;
+      line-height: 18px;
+      color: #fff;
+      background-color: var(--color-dark-green-opacity-80);
+      opacity: 0;
+      visibility: hidden;
+      transition: all 0.4s ease;
+      top: 100%;
+    }
+
+    &:hover {
+      background-color: var(--color-dark-green-opacity-20);
+    }
+
     &.copy {
       background-color: var(--color-dark-green-opacity-20);
+
+      &::before {
+        opacity: 1;
+        visibility: visible;
+      }
     }
 
     svg {
       fill: #486735;
-      // fill: #fff;
     }
   }
 }
