@@ -1,6 +1,6 @@
 .payment {
   &__card {
-    max-width: 640px;
+    max-width: 750px;
     display: flex;
     flex-direction: column;
     grid-gap: 20px;
@@ -67,15 +67,15 @@
   }
 
   &__variant-title {
-    font-size: 20px;
-    line-height: 24px;
+    font-size: 24px;
+    line-height: 28px;
     font-weight: 600;
   }
 
   &__variant-benecifary {
     font-family: var(--font-family-opensans);
-    font-size: 16px;
-    line-height: 18px;
+    font-size: 20px;
+    line-height: 24px;
     font-weight: 300;
   }
 
@@ -86,8 +86,8 @@
   }
 
   &__variant-iban {
-    font-size: 16px;
-    line-height: 18px;
+    font-size: 18px;
+    line-height: 24px;
     font-weight: 500;
 
     span {
@@ -97,23 +97,47 @@
 
   &__variant-about {
     position: relative;
-    padding-left: 20px;
-    font-size: 14px;
-    line-height: 16px;
-    font-weight: 500;
+    // padding-left: 20px;
 
-    &::before {
-      content: '';
-      position: absolute;
-      left: 0;
-      top: 50%;
-      transform: translateY(-50%);
-      width: 14px;
-      height: 14px;
-      background-image: var(--star-icon);
-      background-position: center;
-      background-size: cover;
-      background-repeat: no-repeat;
+
+    // &::before {
+    //   content: '';
+    //   position: absolute;
+    //   left: 0;
+    //   top: 50%;
+    //   transform: translateY(-50%);
+    //   width: 14px;
+    //   height: 14px;
+    //   background-image: var(--star-icon);
+    //   background-position: center;
+    //   background-size: cover;
+    //   background-repeat: no-repeat;
+    // }
+  }
+
+  &__about-title {
+    margin-bottom: 15px;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+  }
+
+  &__about-items {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 10px;
+  }
+
+  &__about-item {
+    font-family: var(--font-family-opensans);
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+
+
+    span {
+      font-size: 18px;
+      font-weight: 300;
     }
   }
 }
