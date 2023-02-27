@@ -6,4 +6,9 @@
   line-height: 120%;
   font-weight: 700;
   color: var(--color-white);
+
+  svg {
+    width: clamp(80px, 12.224vw, 94px);
+    height: clamp(90px, 16.255vw, 125px);
+  }
 }

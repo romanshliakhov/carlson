@@ -3,12 +3,26 @@
   align-items: center;
   grid-gap: 8px;
 
+  @media (max-width: 992px) {
+    width: 100%;
+    justify-content: space-evenly;
+  }
+
+  @media (max-width: 576px) {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
   &__link {
     display: flex;
 
     svg {
       fill: var(--color-white);
     }
-  }
 
+    @media (max-width: 576px) {
+      align-items: center;
+      justify-content: center;
+    }
+  }
 }
